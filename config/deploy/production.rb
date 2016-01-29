@@ -59,3 +59,27 @@
 #     auth_methods: %w(publickey password)
 #     # password: 'please use keys'
 #   }
+#config.cache_classes = true
+#config.serve_static_assets = true
+#config.assets.compile = true
+#config.assets.digest = true
+
+
+# Define roles, user and IP address of deployment server
+# role :name, %{[user]@[IP adde.]}
+role :app, %w{dragos@104.236.130.69}
+role :web, %w{dragos@104.236.130.69}
+role :db,  %w{dragos@104.236.130.69}
+
+# Define server(s)
+server '104.236.130.69', user: 'dragos', roles: %w{web}, port: 92
+
+# SSH Options
+# See the example commented out section in the file
+# for more options.
+set :ssh_options, {
+    forward_agent: false,
+    auth_methods: %w(publickey password),
+    #password: 'Using keys...',
+    user: 'dragos',
+}
