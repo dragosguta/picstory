@@ -1,0 +1,124 @@
+/**
+
+
+ */
+
+/* Spotlight */
+/* line 7, /Users/drgs/Documents/Code/picstory/app/assets/stylesheets/ie9/ie9.scss */
+.spotlight {
+  display: block;
+}
+/* line 10, /Users/drgs/Documents/Code/picstory/app/assets/stylesheets/ie9/ie9.scss */
+.spotlight .image {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 15, /Users/drgs/Documents/Code/picstory/app/assets/stylesheets/ie9/ie9.scss */
+.spotlight .content {
+  padding: 4em 4em 2em 4em ;
+  display: inline-block;
+}
+/* line 20, /Users/drgs/Documents/Code/picstory/app/assets/stylesheets/ie9/ie9.scss */
+.spotlight:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+/* Features */
+/* line 29, /Users/drgs/Documents/Code/picstory/app/assets/stylesheets/ie9/ie9.scss */
+.features {
+  display: block;
+}
+/* line 32, /Users/drgs/Documents/Code/picstory/app/assets/stylesheets/ie9/ie9.scss */
+.features li {
+  float: left;
+}
+/* line 36, /Users/drgs/Documents/Code/picstory/app/assets/stylesheets/ie9/ie9.scss */
+.features:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* Banner + Wrapper (style4) */
+/* line 45, /Users/drgs/Documents/Code/picstory/app/assets/stylesheets/ie9/ie9.scss */
+#banner,
+.wrapper.style4 {
+  background-image: url("../../images/banner.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* line 53, /Users/drgs/Documents/Code/picstory/app/assets/stylesheets/ie9/ie9.scss */
+#banner:before,
+.wrapper.style4:before {
+  background: #000000;
+  content: '';
+  height: 100%;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+/* line 64, /Users/drgs/Documents/Code/picstory/app/assets/stylesheets/ie9/ie9.scss */
+#banner .inner,
+.wrapper.style4 .inner {
+  position: relative;
+  z-index: 1;
+}
+
+/* Banner */
+/* line 72, /Users/drgs/Documents/Code/picstory/app/assets/stylesheets/ie9/ie9.scss */
+#banner {
+  padding: 14em 0 12em 0 ;
+  height: auto;
+}
+/* line 76, /Users/drgs/Documents/Code/picstory/app/assets/stylesheets/ie9/ie9.scss */
+#banner:after {
+  display: none;
+}
+
+/* CTA */
+/* line 85, /Users/drgs/Documents/Code/picstory/app/assets/stylesheets/ie9/ie9.scss */
+#cta .inner header {
+  float: left;
+}
+/* line 89, /Users/drgs/Documents/Code/picstory/app/assets/stylesheets/ie9/ie9.scss */
+#cta .inner .actions {
+  float: left;
+}
+/* line 93, /Users/drgs/Documents/Code/picstory/app/assets/stylesheets/ie9/ie9.scss */
+#cta .inner:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+/* Main */
+/* line 104, /Users/drgs/Documents/Code/picstory/app/assets/stylesheets/ie9/ie9.scss */
+#main > header {
+  background-image: url("../../images/banner.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* line 111, /Users/drgs/Documents/Code/picstory/app/assets/stylesheets/ie9/ie9.scss */
+#main > header:before {
+  background: #000000;
+  content: '';
+  height: 100%;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+/* line 122, /Users/drgs/Documents/Code/picstory/app/assets/stylesheets/ie9/ie9.scss */
+#main > header > * {
+  position: relative;
+  z-index: 1;
+}
