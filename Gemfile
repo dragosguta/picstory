@@ -48,6 +48,9 @@ gem 'devise', '~> 3.5', '>= 3.5.5'
 # Font Awesome
 gem 'font-awesome-rails', '~> 4.5'
 
+gem 'rails_serve_static_assets', '~> 0.0.4'
+gem 'rails_stdout_logging', '~> 0.0.4'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

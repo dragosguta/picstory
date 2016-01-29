@@ -81,5 +81,4 @@ test:
 production:
   <<: *default
   database: picstory_production
-  username: picstory
-  password: <%= ENV['PICSTORY_DATABASE_PASSWORD'] %>
+  username: dragos
