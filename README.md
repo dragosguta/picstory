@@ -1,3 +1,3 @@
 # Picstory
 
-A Pinterest like clone build with Ruby on Rails
+A Pinterest like clone built with Ruby on Rails.
